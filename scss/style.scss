@@ -1,15 +1,26 @@
 @charset 'utf-8';
 @import 'reset';
 
+body{
+    background: #111;
+}
+
+#header{
+    width: 100%;
+    height: 150px;
+}
+
+#visual{
+    width: 100%;
+    height: 300px;
+}
 
 main{
     width: 100%;
-    padding: 200px 50px;
-    background: #111;
+    padding: 0 50px;
 
     section{
         width: 100%;
-        height: 100%;
 
         &::after{
             content: '';
@@ -163,4 +174,9 @@ main{
             }
         }
     }
+}
+
+#footer{
+    width: 100%;
+    height: 150px;
 }
