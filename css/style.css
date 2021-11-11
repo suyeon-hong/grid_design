@@ -10,11 +10,12 @@ a {
   text-decoration: none; }
 
 main {
-  width: 100%; }
+  width: 100%;
+  padding: 200px 50px;
+  background: #111; }
   main section {
     width: 100%;
-    height: 100vh;
-    background: #111; }
+    height: 100%; }
     main section::after {
       content: '';
       display: block;
@@ -28,6 +29,26 @@ main {
       width: 16.666%;
       height: 40vh;
       padding: 5px; }
+      main section .item:nth-of-type(2) {
+        height: 80vh; }
+      main section .item:nth-of-type(3) {
+        width: 33.333%; }
+      main section .item:nth-of-type(5) {
+        width: 33.333%; }
+      main section .item:nth-of-type(6) {
+        width: 66.666%; }
+      main section .item:nth-of-type(7) {
+        width: 33.333%; }
+      main section .item:nth-of-type(9) {
+        width: 33.333%; }
+      main section .item:nth-of-type(10) {
+        height: 80vh; }
+      main section .item:nth-of-type(11) {
+        width: 33.333%; }
+      main section .item:nth-of-type(12) {
+        width: 33.333%; }
+      main section .item:nth-of-type(14) {
+        width: 33.333%; }
       main section .item .inner {
         width: 100%;
         height: 100%;
