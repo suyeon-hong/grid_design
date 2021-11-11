@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Playfair+Display&family=Roboto:wght@100;300;500&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -22,7 +23,7 @@ body {
 
 main {
   width: 100%;
-  padding: 0 50px; }
+  padding: 0 100px; }
   main section {
     width: 100%; }
     main section::after {
@@ -50,6 +51,9 @@ main {
         width: 33.333%; }
       main section .item:nth-of-type(6) {
         width: 49.999%; }
+        main section .item:nth-of-type(6) .inner p {
+          font: 300 20px/1.6 'Roboto';
+          color: #eee; }
       main section .item:nth-of-type(7) {
         width: 33.333%; }
         main section .item:nth-of-type(7) .inner {
@@ -81,32 +85,32 @@ main {
         position: relative;
         overflow: hidden; }
         main section .item.quote .inner h1 {
-          font: normal 16px/1 'arial';
+          font: normal 16px/1 'Roboto';
           color: #111;
           margin-bottom: 20px; }
         main section .item.quote .inner h2 {
-          font: normal 26px/1.4 'arial';
+          font: normal 23px/1.4 'Playfair Display';
           color: #fff; }
         main section .item.quote .inner .num {
           position: absolute;
           bottom: -80px;
           left: 50%;
           transform: translateX(-50%);
-          font: bold 200px/1 'arial';
+          font: bold 200px/1 'Roboto';
           color: #fff;
           opacity: 0.2; }
       main section .item.events .inner {
         text-align: left; }
         main section .item.events .inner h1 {
-          font: normal 20px/1 'arial';
+          font: 400 20px/1 'Roboto';
           color: #eee;
           letter-spacing: 5px; }
         main section .item.events .inner h2 {
-          font: bold 30px/1.2 'arial';
+          font: 600 28px/1.2 'Roboto';
           color: #fff;
           margin-bottom: 15px; }
         main section .item.events .inner p {
-          font: normal 18px/1 'arial';
+          font: 300 18px/1 'Roboto';
           color: #ddd;
           margin-bottom: 50px; }
         main section .item.events .inner a {
@@ -115,7 +119,7 @@ main {
           height: 50px;
           border: 2px solid darkgoldenrod;
           border-radius: 25px;
-          font: 16px/50px 'arial';
+          font: 500 16px/50px 'Roboto';
           color: #fff;
           text-align: center; }
       main section .item .inner {
@@ -125,11 +129,12 @@ main {
         background: #bbb;
         text-align: center; }
         main section .item .inner h1 {
-          font: bold 36px/1.2 'arial';
+          font: 600 30px/1.2 'Roboto';
           color: #111;
-          margin-bottom: 20px; }
+          letter-spacing: 1px;
+          margin-bottom: 15px; }
         main section .item .inner p {
-          font: lighter 18px/1.6 'arial';
+          font: bold 16px/1.6 'Parisienne';
           color: #888; }
 
 #footer {
