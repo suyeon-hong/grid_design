@@ -41,28 +41,69 @@ main{
 
             &:nth-of-type(2){
                 height: 80vh;
+
+                .inner{
+                    img{
+                        height: 70%;
+                        left: 0;
+                        bottom: 0;
+                    }
+                    h1{
+                        font-size: 30px;
+                    }
+                }
             }
             &:nth-of-type(3){
                 width: 33.333%;
 
                 .inner{
                     text-align: right;
+                    background: #555;
 
+                    img{
+                        top: 0;
+                        left: 0;
+                        opacity: 0.6;
+                    }
                     h1{
                         color: #fff;
                     }
                 }
             }
-            &:nth-of-type(5){
-                width: 33.333%;
+            &:nth-of-type(4){
+                .inner{
+                    background: rgb(54, 164, 255);
+                }
             }
             &:nth-of-type(6){
                 width: 49.999%;
 
                 .inner{
+                    background: rgb(29, 29, 179);
+
                     p{
-                        font: 300 20px/1.6 'Roboto';
-                        color: #eee;
+                        font: 400 20px/1.8 'Roboto';
+                        letter-spacing: 2px;
+                        color: #bbb;
+                        opacity: 0.8;
+                        margin-bottom: 50px;
+
+                        span{
+                            font-weight: 500;
+                            font-size: 22px;
+                            color: #fff;
+                        }
+                    }
+                    i{
+                        display: block;
+                        font-size: 40px;
+                        color: rgb(54, 164, 255);
+                        margin-bottom: 10px;
+                    }
+                    em{
+                        font: 400 16px/1'Playfair Display';
+                        color: #fff;
+                        opacity: 0.4;
                     }
                 }
             }
@@ -72,17 +113,33 @@ main{
                 .inner{
                     padding-left: 50%;
                     text-align: right;
+                    background: #fff;
+
+                    img{
+                        width: 50%;
+                        top:0;
+                        left: 0;
+                        filter: grayscale(100%) brightness(1.2);
+                    }
                 }
             }
-            &:nth-of-type(9){
-                width: 33.333%;
+            &:nth-of-type(8){
+                .inner{
+                    background: red;
+                }
             }
             &:nth-of-type(10){
                 height: 80vh;
 
                 .inner{
                     padding-top: 400px;
+                    background: linear-gradient(45deg, rgb(16, 76, 100), rgb(67, 147, 179));
 
+                    img{
+                        top: 0;
+                        left: -20%;
+                        opacity: 0.8;
+                    }
                     h1{
                         font-size: 1.2vw;
                         color: #fff;
@@ -95,9 +152,19 @@ main{
                 .inner{
                     text-align: left;
                     padding-right: 50%;
+                    background: rgb(169, 247, 169);
 
+                    img{
+                        width: 50%;
+                        top:0;
+                        right: 0;
+                        opacity: 0.8;
+                    }
                     h1{
                         color: darkblue;
+                    }
+                    h1, h2{
+                        opacity: 0.8;
                     }
                 }
             }
@@ -106,72 +173,106 @@ main{
 
                 .inner{
                     text-align: left;
+                    padding-right: 50%;
+
+                    img{
+                        width: 50%;
+                        top: 0;
+                        right: 0;
+                        opacity: 0.8;
+                    }
                 }
             }
-            &:nth-of-type(14){
+            &:nth-of-type(13){
+                .inner{
+                    background: rgb(243, 193, 29);
+                }
+            }
+            &.quote{
+                .inner{
+                    position: relative;
+    
+                    h1{
+                        font: normal 18px/1 'Roboto';
+                        color: #111;
+                        margin-bottom: 20px;
+                    }
+                    h2{
+                        font: normal 23px/1.4 'Playfair Display';
+                        color: #fff;
+                    }
+                    .num{
+                        position: absolute;
+                        bottom: -70px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        font: bold 200px/1 'Roboto';
+                        color: #fff;
+                        opacity: 0.2;
+                    }
+                }
+            }
+            &.events{
                 width: 33.333%;
-            }
-            &.quote .inner{
-                position: relative;
-                overflow: hidden;
 
-                h1{
-                    font: normal 18px/1 'Roboto';
-                    color: #111;
-                    margin-bottom: 20px;
-                }
-                h2{
-                    font: normal 23px/1.4 'Playfair Display';
-                    color: #fff;
-                }
-                .num{
-                    position: absolute;
-                    bottom: -80px;
-                    left: 50%;
-                    transform: translateX(-50%);
-                    font: bold 200px/1 'Roboto';
-                    color: #fff;
-                    opacity: 0.2;
-                }
-            }
-            &.events .inner{
-                text-align: left;
-
-                h1{
-                    font: 400 20px/1 'Roboto';
-                    color: #eee;
-                    letter-spacing: 5px;
-                }
-                h2{
-                    font: 600 28px/1.2 'Roboto';
-                    color: #fff;
-                    margin-bottom: 15px;
-                }
-                p{
-                    font: 300 18px/1 'Roboto';
-                    color: #ddd;
-                    margin-bottom: 50px;
-                }
-                a{
-                    display: block;
-                    width: 180px;
-                    height: 50px;
-                    border: 2px solid darkgoldenrod;
-                    border-radius: 25px;
-                    font: 500 16px/50px 'Roboto';
-                    color: #fff;
-                    text-align: center;
+                .inner{
+                    text-align: left;
+                    background: #333;
+    
+                    img{
+                        top:0;
+                        left: 0;
+                        opacity: 0.4;
+                    }
+                    h1{
+                        font: 400 20px/1 'Roboto';
+                        color: #eee;
+                        letter-spacing: 5px;
+                    }
+                    h2{
+                        font: 600 28px/1.2 'Roboto';
+                        color: #fff;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                        font: 300 18px/1 'Playfair Display';
+                        color: #ddd;
+                        margin-bottom: 50px;
+                    }
+                    a{
+                        display: block;
+                        width: 180px;
+                        height: 50px;
+                        border: 2px solid darkgoldenrod;
+                        border-radius: 25px;
+                        font: 500 16px/50px 'Roboto';
+                        color: #fff;
+                        text-align: center;
+                        letter-spacing: 2px;
+                    }
                 }
             }
             .inner{
                 width: 100%;
                 height: 100%;
                 padding: 70px 50px;
-                background: #bbb;
+                background: #eee;
                 text-align: center;
+                position: relative;
+                overflow: hidden;
 
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    position: absolute;
+                }
+                h1, h2, p, a{
+                    position: relative;
+                    z-index: 2;
+                }
                 h1{
-                    font: 600 30px/1.2 'Roboto';
+                    font: 600 40px/1.2 'Roboto';
                     color: #111;
                     letter-spacing: 1px;
                     margin-bottom: 15px;
