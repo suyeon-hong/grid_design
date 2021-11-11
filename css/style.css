@@ -11,7 +11,7 @@ a {
   text-decoration: none; }
 
 body {
-  background: #111; }
+  background: url(../img/bg.jpg) no-repeat center/cover; }
 
 #header {
   width: 100%;
