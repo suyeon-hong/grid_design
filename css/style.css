@@ -157,8 +157,8 @@ main {
           main section .item:nth-of-type(12) .inner img {
             width: 50%;
             top: 0;
-            right: 0;
-            opacity: 0.8; }
+            right: -40px;
+            opacity: 0.7; }
       main section .item:nth-of-type(13) .inner {
         background: #f3c11d; }
       main section .item.quote .inner {
