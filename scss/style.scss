@@ -321,6 +321,16 @@ main{
 #footer{
     width: 100%;
     height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 30px;
+
+    p{
+        font: normal 12px/1 'Roboto';
+        color: #fff;
+        opacity: 0.3;
+    }
 }
 
 @media screen and (max-width: 1500px){
