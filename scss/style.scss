@@ -32,6 +32,20 @@ body{
 #visual{
     width: 100%;
     height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1{
+        font: bold 80px/1 'Playfair Display';
+        color: rgba(255,255,255,0.2);
+        margin-bottom: 20px;
+    }
+    h2{
+        font: normal 24px/1 'Playfair Display';
+        color: rgba(255,255,255,0.1);
+    }
 }
 
 main{
