@@ -249,5 +249,87 @@ main {
 @media screen and (max-width: 1500px) {
   main section .item .inner {
     padding: 50px 30px; } }
+@media screen and (max-width: 1400px) {
+  main section .item-sizer {
+    width: 25%; }
+  main section .item {
+    width: 25%;
+    height: 30vh; }
+    main section .item:nth-of-type(2) {
+      height: 60vh; }
+    main section .item:nth-of-type(3) {
+      width: 50%; }
+    main section .item:nth-of-type(6) {
+      width: 50%; }
+      main section .item:nth-of-type(6) .inner p {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-bottom: 30px; }
+        main section .item:nth-of-type(6) .inner p span {
+          font-size: 18px; }
+      main section .item:nth-of-type(6) .inner i {
+        font-size: 26px;
+        margin-bottom: 0; }
+      main section .item:nth-of-type(6) .inner em {
+        font-size: 14px; }
+    main section .item:nth-of-type(7) {
+      width: 50%; }
+    main section .item:nth-of-type(10) {
+      height: 60vh; }
+      main section .item:nth-of-type(10) .inner {
+        padding-top: 350px; }
+        main section .item:nth-of-type(10) .inner h1 {
+          font-size: 2vw; }
+    main section .item:nth-of-type(11) {
+      width: 50%;
+      height: 60vh; }
+      main section .item:nth-of-type(11) .inner {
+        padding-top: 170px; }
+        main section .item:nth-of-type(11) .inner img {
+          width: 100%;
+          height: 100%;
+          top: auto;
+          bottom: 0;
+          right: -120px; }
+        main section .item:nth-of-type(11) .inner h1 {
+          font-size: 40px; }
+        main section .item:nth-of-type(11) .inner p {
+          font-size: 16px; }
+    main section .item:nth-of-type(12) {
+      width: 25%;
+      height: 60vh; }
+      main section .item:nth-of-type(12) .inner {
+        padding-right: 30px;
+        padding-top: 400px;
+        text-align: right; }
+        main section .item:nth-of-type(12) .inner img {
+          width: 100%;
+          right: 0; }
+    main section .item.quote {
+      height: 60vh; }
+      main section .item.quote .inner {
+        padding-top: 150px; }
+    main section .item.events {
+      width: 50%; }
+      main section .item.events .inner h1 {
+        font-weight: 200;
+        font-size: 14px;
+        margin-bottom: 10px; }
+      main section .item.events .inner h2 {
+        font-weight: 500;
+        margin-bottom: 10px; }
+      main section .item.events .inner p {
+        font-size: 16px;
+        margin-bottom: 30px; }
+      main section .item.events .inner a {
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px; }
+    main section .item .inner h1 {
+      font-size: 30px; }
+    main section .item .inner p {
+      font-size: 14px;
+      line-height: 1.4; } }
 
 /*# sourceMappingURL=style.css.map */
