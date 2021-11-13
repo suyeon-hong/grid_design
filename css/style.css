@@ -331,5 +331,68 @@ main {
     main section .item .inner p {
       font-size: 14px;
       line-height: 1.4; } }
+@media screen and (max-width: 980px) {
+  main section .item-sizer {
+    width: 50%; }
+  main section .item {
+    width: 50%; }
+    main section .item:nth-of-type(3) {
+      width: 50%; }
+      main section .item:nth-of-type(3) .inner h1 {
+        font-size: 22px; }
+      main section .item:nth-of-type(3) .inner p {
+        font-size: 12px; }
+    main section .item:nth-of-type(6) {
+      height: 60vh; }
+      main section .item:nth-of-type(6) .inner p {
+        font-weight: 300;
+        line-height: 1.8;
+        margin-bottom: 70px; }
+        main section .item:nth-of-type(6) .inner p span {
+          font-weight: 400; }
+      main section .item:nth-of-type(6) .inner i {
+        margin-bottom: 10px; }
+    main section .item:nth-of-type(7) {
+      height: 60vh; }
+      main section .item:nth-of-type(7) .inner {
+        padding-left: 30px; }
+        main section .item:nth-of-type(7) .inner img {
+          width: 100%;
+          top: 40px;
+          left: -50px; }
+    main section .item:nth-of-type(10) {
+      height: 30vh; }
+      main section .item:nth-of-type(10) .inner {
+        padding-top: 120px;
+        text-align: right; }
+        main section .item:nth-of-type(10) .inner h1 {
+          font-size: 20px; }
+    main section .item:nth-of-type(11) .inner {
+      padding-top: 400px; }
+      main section .item:nth-of-type(11) .inner img {
+        right: 0; }
+      main section .item:nth-of-type(11) .inner h1 {
+        font-size: 30px; }
+      main section .item:nth-of-type(11) .inner p {
+        font-size: 14px; }
+    main section .item:nth-of-type(12) {
+      width: 50%; }
+    main section .item.quote {
+      height: 30vh; }
+      main section .item.quote .inner {
+        padding-top: 50px; }
+    main section .item.events {
+      width: 50%; }
+      main section .item.events .inner h1 {
+        font-size: 12px;
+        letter-spacing: 2px; }
+      main section .item.events .inner h2 {
+        font-size: 24px; }
+      main section .item.events .inner p {
+        font-size: 14px; }
+      main section .item.events .inner a {
+        width: 140px;
+        height: 30px;
+        font: 300 12px/27px 'Roboto'; } }
 
 /*# sourceMappingURL=style.css.map */

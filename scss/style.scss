@@ -473,3 +473,116 @@ main{
         }
     }
 }
+
+@media screen and (max-width: 980px){
+    main section{
+        .item-sizer{
+            width: 50%;
+        }
+        .item{
+            width: 50%;
+
+            &:nth-of-type(3){
+                width: 50%;
+
+                .inner{
+                    h1{
+                        font-size: 22px;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+            &:nth-of-type(6){
+                height: 60vh;
+
+                .inner{
+                    p{
+                        font-weight: 300;
+                        line-height: 1.8;
+                        margin-bottom: 70px;
+
+                        span{
+                            font-weight: 400;
+                        }
+                    }
+                    i{
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            &:nth-of-type(7){
+                height: 60vh;
+
+                .inner{
+                    padding-left: 30px;
+
+                    img{
+                        width: 100%;
+                        top: 40px;
+                        left: -50px;
+                    }
+                }
+            }
+            &:nth-of-type(10){
+                height: 30vh;
+
+                .inner{
+                    padding-top: 120px;
+                    text-align: right;
+
+                    h1{
+                        font-size: 20px;
+                    }
+                }
+            }
+            &:nth-of-type(11){
+                .inner{
+                    padding-top: 400px;
+
+                    img{
+                        right: 0;
+                    }
+                    h1{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+            &:nth-of-type(12){
+                width: 50%;
+            }
+            &.quote{
+                height: 30vh;
+
+                .inner{
+                    padding-top: 50px;
+                }
+            }
+            &.events{
+                width: 50%;
+
+                .inner{
+                    h1{
+                        font-size: 12px;
+                        letter-spacing: 2px;
+                    }
+                    h2{
+                        font-size: 24px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                    a{
+                        width: 140px;
+                        height: 30px;
+                        font: 300 12px/27px 'Roboto';
+                    }
+                }
+            }
+        }
+    }
+}
