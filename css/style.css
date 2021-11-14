@@ -70,6 +70,7 @@ main {
       main section .item:nth-of-type(2) {
         height: 80vh; }
         main section .item:nth-of-type(2) .inner img {
+          width: 100%;
           left: 0;
           bottom: -130px; }
         main section .item:nth-of-type(2) .inner h1 {
@@ -80,6 +81,7 @@ main {
           text-align: right;
           background: #555; }
           main section .item:nth-of-type(3) .inner img {
+            width: 100%;
             top: 0;
             left: 0;
             opacity: 0.6; }
@@ -130,7 +132,7 @@ main {
           background: linear-gradient(45deg, #104c64, #4393b3); }
           main section .item:nth-of-type(10) .inner img {
             top: 0;
-            left: -20%;
+            left: -200px;
             opacity: 0.8; }
           main section .item:nth-of-type(10) .inner h1 {
             font-size: 1.2vw;
@@ -185,6 +187,7 @@ main {
           text-align: left;
           background: #333; }
           main section .item.events .inner img {
+            width: 100%;
             top: 0;
             left: 0;
             opacity: 0.4; }
@@ -219,7 +222,6 @@ main {
         position: relative;
         overflow: hidden; }
         main section .item .inner img {
-          width: 100%;
           height: 100%;
           object-fit: cover;
           position: absolute; }
@@ -279,6 +281,8 @@ main {
       height: 60vh; }
       main section .item:nth-of-type(10) .inner {
         padding-top: 350px; }
+        main section .item:nth-of-type(10) .inner img {
+          left: -100px; }
         main section .item:nth-of-type(10) .inner h1 {
           font-size: 2vw; }
     main section .item:nth-of-type(11) {
@@ -287,11 +291,11 @@ main {
       main section .item:nth-of-type(11) .inner {
         padding-top: 170px; }
         main section .item:nth-of-type(11) .inner img {
-          width: 100%;
+          width: auto;
           height: 100%;
           top: auto;
           bottom: 0;
-          right: -120px; }
+          right: 0; }
         main section .item:nth-of-type(11) .inner h1 {
           font-size: 40px; }
         main section .item:nth-of-type(11) .inner p {
@@ -371,12 +375,16 @@ main {
       main section .item:nth-of-type(10) .inner {
         padding-top: 120px;
         text-align: right; }
+        main section .item:nth-of-type(10) .inner img {
+          width: 50%;
+          left: -20px; }
         main section .item:nth-of-type(10) .inner h1 {
           font-size: 20px; }
     main section .item:nth-of-type(11) .inner {
       padding-top: 400px; }
       main section .item:nth-of-type(11) .inner img {
-        right: 0; }
+        right: 0;
+        width: 100%; }
       main section .item:nth-of-type(11) .inner h1 {
         font-size: 30px; }
       main section .item:nth-of-type(11) .inner p {
@@ -442,6 +450,11 @@ main {
         width: 100%; }
       main section .item:nth-of-type(10) .inner {
         padding-top: 160px; }
+        main section .item:nth-of-type(10) .inner img {
+          width: 100%;
+          height: auto;
+          left: -80px;
+          top: -90px; }
       main section .item:nth-of-type(11) {
         width: 100%; }
       main section .item:nth-of-type(12) {

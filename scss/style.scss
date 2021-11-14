@@ -78,6 +78,7 @@ main{
 
                 .inner{
                     img{
+                        width: 100%;
                         left: 0;
                         bottom: -130px;
                     }
@@ -94,6 +95,7 @@ main{
                     background: #555;
 
                     img{
+                        width: 100%;
                         top: 0;
                         left: 0;
                         opacity: 0.6;
@@ -170,7 +172,7 @@ main{
 
                     img{
                         top: 0;
-                        left: -20%;
+                        left: -200px;
                         opacity: 0.8;
                     }
                     h1{
@@ -253,6 +255,7 @@ main{
                     background: #333;
     
                     img{
+                        width: 100%;
                         top:0;
                         left: 0;
                         opacity: 0.4;
@@ -295,7 +298,6 @@ main{
                 overflow: hidden;
 
                 img{
-                    width: 100%;
                     height: 100%;
                     object-fit: cover;
                     position: absolute;
@@ -388,6 +390,9 @@ main{
                 .inner{
                     padding-top: 350px;
 
+                    img{
+                        left: -100px;
+                    }
                     h1{
                         font-size: 2vw;
                     }
@@ -401,11 +406,11 @@ main{
                     padding-top: 170px;
 
                     img{
-                        width: 100%;
+                        width: auto;
                         height: 100%;
                         top: auto;
                         bottom: 0;
-                        right: -120px;
+                        right: 0;
                     }
                     h1{
                         font-size: 40px;
@@ -541,6 +546,10 @@ main{
                     padding-top: 120px;
                     text-align: right;
 
+                    img{
+                        width: 50%;
+                        left: -20px;
+                    }
                     h1{
                         font-size: 20px;
                     }
@@ -552,6 +561,7 @@ main{
 
                     img{
                         right: 0;
+                        width: 100%;
                     }
                     h1{
                         font-size: 30px;
@@ -625,7 +635,7 @@ main{
             }
             .item{
                 width: 100%;
-    
+
                 &:nth-of-type(3){
                     width: 100%;
                 }
@@ -660,6 +670,13 @@ main{
                 &:nth-of-type(10){
                     .inner{
                         padding-top: 160px;
+
+                        img{
+                            width: 100%;
+                            height: auto;
+                            left: -80px;
+                            top: -90px;
+                        }
                     }
                 }
                 &:nth-of-type(11){
