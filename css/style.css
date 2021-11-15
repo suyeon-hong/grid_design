@@ -451,8 +451,12 @@ main {
         width: 100%; }
       main section .item:nth-of-type(12) {
         width: 100%; }
-      main section .item.quote .inner h1 {
-        margin-bottom: 10px; }
+      main section .item.quote {
+        height: 30vh; }
+        main section .item.quote .inner {
+          padding-top: 40px; }
+          main section .item.quote .inner h1 {
+            margin-bottom: 10px; }
       main section .item.events {
         width: 100%; } }
 

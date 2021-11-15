@@ -675,8 +675,14 @@ main{
                     width: 100%;
                 }
                 &.quote{
-                    .inner h1{
-                        margin-bottom: 10px;
+                    height: 30vh;
+
+                    .inner{
+                        padding-top: 40px;
+
+                        h1{
+                            margin-bottom: 10px;
+                        }
                     }
                 }
                 &.events{
