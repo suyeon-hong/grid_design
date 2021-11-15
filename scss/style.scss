@@ -509,33 +509,29 @@ main{
                 }
             }
             &:nth-of-type(6){
-                height: 60vh;
+                width: 100%;
 
                 .inner{
                     p{
                         font-weight: 300;
-                        line-height: 1.8;
-                        margin-bottom: 70px;
+                        line-height: 1.6;
+                        margin-bottom: 40px;
 
                         span{
                             font-weight: 400;
                         }
                     }
-                    i{
-                        margin-bottom: 10px;
-                    }
                 }
             }
             &:nth-of-type(7){
-                height: 60vh;
-
                 .inner{
-                    padding-left: 30px;
+                    padding-left: 40%;
 
-                    img{
-                        width: 100%;
-                        top: 40px;
-                        left: -50px;
+                    h1{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 10px;
                     }
                 }
             }
@@ -543,12 +539,12 @@ main{
                 height: 30vh;
 
                 .inner{
-                    padding-top: 120px;
                     text-align: right;
+                    padding-top: 120px;
 
                     img{
-                        width: 50%;
-                        left: -20px;
+                        width: 100%;
+                        left: -70px;
                     }
                     h1{
                         font-size: 20px;
@@ -557,7 +553,7 @@ main{
             }
             &:nth-of-type(11){
                 .inner{
-                    padding-top: 400px;
+                    padding-top: 350px;
 
                     img{
                         right: 0;
@@ -573,13 +569,6 @@ main{
             }
             &:nth-of-type(12){
                 width: 50%;
-            }
-            &.quote{
-                height: 30vh;
-
-                .inner{
-                    padding-top: 50px;
-                }
             }
             &.events{
                 width: 50%;
