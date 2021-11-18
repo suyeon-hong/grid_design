@@ -36,15 +36,15 @@ body {
 
 #visual {
   width: 100%;
-  height: 300px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center; }
   #visual h1 {
-    font: bold 80px/1 'Playfair Display';
+    font: bold 64px/1 'Playfair Display';
     color: rgba(255, 255, 255, 0.2);
-    margin-bottom: 20px; }
+    margin-bottom: 10px; }
   #visual h2 {
     font: normal 24px/1 'Playfair Display';
     color: rgba(255, 255, 255, 0.1); }
@@ -409,8 +409,7 @@ main {
   #visual {
     height: 200px; }
     #visual h1 {
-      font-size: 40px;
-      margin-bottom: 10px; }
+      font-size: 40px; }
     #visual h2 {
       font-size: 16px; }
 
