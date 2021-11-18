@@ -192,13 +192,14 @@ main {
             left: 0;
             opacity: 0.4; }
           main section .item.events .inner h1 {
-            font: 400 20px/1 'Roboto';
+            font: 300 18px/1 'Roboto';
             color: #eee;
             letter-spacing: 5px; }
           main section .item.events .inner h2 {
             font: 600 28px/1.2 'Roboto';
             color: #fff;
-            margin-bottom: 15px; }
+            margin-bottom: 15px;
+            letter-spacing: 2px; }
           main section .item.events .inner p {
             font: 300 18px/1 'Playfair Display';
             color: #ddd;
